@@ -1,11 +1,39 @@
-/--------------------------------------------------------------------------------\
-| Network-Private Remote Folders – Novel Software Development                    |
-|--------------------------------------------------------------------------------|
-| CONTENTS                                                                       |
-| <a href="https://github.com/jfathi/research-uky/Remote-Folder/Client"> asdf </a>
-| Review Remote-Folder_Report.pdf for full project documentation                 |
-| (e.g.: experiments, methodology, etc.).                                        |
-|--------------------------------------------------------------------------------|
-| Socket Programming Solutions at the Application Layer, April 2020              |
-| Prepared for Dr. Simone Silvestri, CS-371: Introduction to Computer Networking |
----------------------------------------------------------------------------------/
+/---------------------------------------------------------------------------------------------\
+| Network-Private Remote Folders – Novel Software Development                                 |
+|---------------------------------------------------------------------------------------------|
+| Socket Programming Solutions at the Application Layer, April 2020                           |
+| Prepared for Dr. Simone Silvestri, CS-371: Introduction to Computer Networking              |
+|---------------------------------------------------------------------------------------------|
+| Review Remote-Folder_Report.pdf for full project documentation                              |
+| (e.g.: commands, experiments, methodology, etc.).                                           |
+|---------------------------------------------------------------------------------------------|
+| Contents:                                                                                   |
+|
+|---------------------------------------------------------------------------------------------|
+| Installation Directions:                                                                    |
+| Pull repository or download and extract Remote-Folder directory.                            |
+| Feel free to add, edit and/or remove files from either Server/Server_Folder or              |
+| Client/Local_Folder. Altering any other contents may break the program.                     |
+|---------------------------------------------------------------------------------------------|
+| Evaluation Directions:                                                                      |
+| 1) Start server from the command line - can be run in the background:                       |
+|    > python ./Server/server.py                                                              |
+| 2) Run from the command line on the same network/device:                                    |
+|    > python ./Client/remote_folder.py                                                       |
+| 3) Client-side software should open. Use HELP to review command options and arguments.      |
+|    > help                                                                                   |
+| 4) Server automatically listens to port 1234 on the local network (127.0.0.1).              |
+|    Software actively refuses all other IP addresses and port numbers.                       |
+|    Open a connection from the client-side with the following command:                       |
+|    > connect 127.0.0.1 1234                                                                 |
+| 5) Client should connect to the "banana" server. Use one of two LOGIN commands to continue: |
+|    > login jfathi password                                                                  |
+|    > login silvestri password                                                               |
+| 6) You now have full access to the "remote" folder (Server_Folder) through the software:    |
+|    UPLOAD files from Local_Folder to Server_Folder,                                         |
+|    DOWNLOAD files from Server_Folder to Local_Folder,                                       |
+|    DELETE files from Server_Folder,                                                         |
+|    Use DIR to review contents of Server_Folder                                              |
+| 7) Whenever you are finished, exit using QUIT.                                              |
+|    > quit                                                                                   |
+\---------------------------------------------------------------------------------------------/
