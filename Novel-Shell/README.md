@@ -1,5 +1,4 @@
 <h4>UNIX Terminal Shell – Novel Software Development</h4>
-<p>See README.txt for complete information.</p>
 <br>
 <p>Software/Hardware Recommendations: C++11, Ubuntu 18 or later, 4GB+ of RAM</p>
 <p>Compilation Options: make; g++ novsh.cpp -o novsh</p>
