@@ -5,4 +5,4 @@
 <p>Command Ln. Execute: ./novsh</p>
 <br>
 <p>Object-oriented command-line software written in C++, November 2019</p>
-<p>Prepared with Robert Taylor for Dr. Raphael Finkel, CS-270: Systems Programming</p>
+<p>Prepared with Will Taylor for Dr. Raphael Finkel, CS-270: Systems Programming</p>
